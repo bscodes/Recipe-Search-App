@@ -3,6 +3,7 @@ import { HashRouter, Route, Switch } from 'react-router-dom';
 import './App.css';
 import RecipeCard from './components/RecipeCard';
 
+
 const App = () => {
     const APP_ID = '43db497e';
     const APP_KEY = '3887402edde7dc141cf655aba2173de2';
@@ -77,20 +78,10 @@ const App = () => {
                                                     image = {recipe.recipe.image} 
                                                     ingredients = {recipe.recipe.ingredients}
                                                     source = {recipe.recipe.source}
-                                                    details = {recipe.recipe.url} 
+                                                    details = {recipe.recipe.url}
                                                 />}
                                             />
-                                        </Switch>
-                                        /* <RecipeCard 
-                                            key={recipe.recipe.url} 
-                                            title = {recipe.recipe.label} 
-                                            calories = {recipe.recipe.calories} 
-                                            image = {recipe.recipe.image} 
-                                            ingredients = {recipe.recipe.ingredients}
-                                            source = {recipe.recipe.source}
-                                            details = {recipe.recipe.url}
-                                        /> */
-                                        
+                                        </Switch>   
                                     ))
                                 }
                             </div>
