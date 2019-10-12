@@ -33,3 +33,11 @@
     box-shadow: none;
   }
 
+  .recipe-card:hover {
+    text-decoration: none;
+    color: black;
+  }
+
+  .recipe-card {
+      color: black;
+  }
