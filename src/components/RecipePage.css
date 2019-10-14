@@ -1,13 +1,14 @@
 .input-group {
-    -webkit-box-shadow: 0px 6px 18px -11px rgba(0,0,0,0.2);
-    -moz-box-shadow: 0px 6px 18px -11px rgba(0,0,0,0.2);
-    box-shadow: 0px 6px 18px -11px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0px 6px 18px -11px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 6px 18px -11px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 6px 18px -11px rgba(0, 0, 0, 0.2);
     border-radius: 21px 21px 21px 21px;
     -moz-border-radius: 21px 21px 21px 21px;
     -webkit-border-radius: 21px 21px 21px 21px;
     border: 0px solid #000000;
 
 }
+
 .input-group i {
     font-size: 30px;
     padding: 5px;
@@ -26,13 +27,27 @@
     border-color: inherit;
     -webkit-box-shadow: none;
     box-shadow: none;
-  }
+}
 
-  .recipe-card:hover {
+.recipe-card:hover {
     text-decoration: none;
     color: black;
-  }
+}
 
-  .recipe-card {
-      color: black;
-  }
+.recipe-card {
+    color: black;
+}
+
+.card {
+    border: none;
+}
+
+.card-img-top {
+    border-radius: 47px 47px 47px 47px;
+    -moz-border-radius: 47px 47px 47px 47px;
+    -webkit-border-radius: 47px 47px 47px 47px;
+}
+
+.card-text {
+    font-weight: 700;
+}
