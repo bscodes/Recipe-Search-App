@@ -23,7 +23,7 @@ const RecipePage  = () => {
         // and once it comes back, format the data 
         const data = await response.json()
         setRecipes(data.hits)
-        console.log(data)
+        console.log(data.hits)
     }
 
     // get searched name from value of textInput
@@ -70,6 +70,7 @@ const RecipePage  = () => {
                                     ingredients = {recipe.recipe.ingredients}
                                     source = {recipe.recipe.source}
                                     details = {recipe.recipe.url}
+                                    time = {recipe.recipe.totalTime}
                                 />
                             ))
                         }
