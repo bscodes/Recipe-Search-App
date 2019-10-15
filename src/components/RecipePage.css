@@ -70,7 +70,8 @@
     }
     .card-img-top {
         width: 50% !important;
-        margin-left: 57%;
+        margin-left: 55% !important;
+        margin-top: 9% !important;
     }
 }
 
