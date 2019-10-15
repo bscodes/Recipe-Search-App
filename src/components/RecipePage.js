@@ -10,7 +10,7 @@ const RecipePage  = () => {
     // a state for search 
     const [search, setSearch] = useState('')
     // a state for 
-    const [query, setQuery] = useState('salad') 
+    const [query, setQuery] = useState('sugar') 
 
     useEffect( () => {
         getRecipes();
@@ -44,6 +44,16 @@ const RecipePage  = () => {
             <div className="row">
                 <div className="col-lg-12">
                     <div className="form-group mt-5 mb-5">
+                        <div className="input-title text-left mt-5 ml-3">
+                            <h1 className="input-title-text">
+                            Search easy recipes and dishes.
+                            </h1>
+                            <p className="input-title-p">
+                            A collection of mouth-watering 
+                            dishes for people who want to 
+                            cook fast, easy and delicious.
+                            </p>
+                        </div>
                         <form onSubmit = {getSearch}>
                             <div className="input-group">
                                 <i className="fas fa-search"></i>
@@ -51,11 +61,6 @@ const RecipePage  = () => {
                                 {/* <button type="submit" className="btn btn-primary">Search</button> */}
                             </div>
                         </form>
-                        <div className="input-title text-left mt-5 ml-3">
-                            <h2 className="input-title-text">
-                            Healthy food for your lifesyle
-                            </h2>
-                        </div>
                     </div>
                 </div>
                 <div className="container">
@@ -71,6 +76,7 @@ const RecipePage  = () => {
                                     source = {recipe.recipe.source}
                                     details = {recipe.recipe.url}
                                     time = {recipe.recipe.totalTime}
+                                    healthLabels = {recipe.recipe.healthLabels}
                                 />
                             ))
                         }
