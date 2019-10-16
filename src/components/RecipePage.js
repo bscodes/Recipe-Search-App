@@ -45,7 +45,7 @@ const RecipePage  = () => {
                 <div className="col-lg-12">
                     <div className="form-group mt-5 mb-5">
                         <div className="input-title text-left mt-5 ml-3">
-                            <h1 className="input-title-text">
+                            <h1 className="input-title-text mb-5">
                             Search easy recipes and dishes.
                             </h1>
                             <p className="input-title-p">
