@@ -1,4 +1,24 @@
+# A Recipe Search App With ReactJS
 
+You can see it live! https://bscodes.github.io/Recipe-Search-App/
+
+
+## Overview
+
+Recipe Search App is a web app that was built in a few days as a front-end project. I used to an API for development fist time!
+
+## Technologies Used
+
+- ReactJS
+- [ReactJS Popup Component](https://react-popup.elazizi.com/).
+- [Edamam Recipe Search API](https://www.edamam.com/).
+- JavaScript (ES6)
+- HTML5
+- CSS
+- Bootstrap 4 
+- Git
+- GitHub
+- Npm
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
