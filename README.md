@@ -5,7 +5,7 @@ You can see it live! https://bscodes.github.io/Recipe-Search-App/
 
 ## Overview
 
-Recipe Search App is a web app that was built in a few days as a front-end project. I used to an API for development fist time!
+Recipe Search App is a web app that was built in a few days as a front-end project. I used to a public API for development.
 
 ## Technologies Used
 
